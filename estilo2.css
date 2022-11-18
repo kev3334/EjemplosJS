@@ -1,0 +1,66 @@
+#formulario{
+    margin-top: 0;
+/*    border: red 5px solid;*/
+    width: 60%;
+    margin: 0 auto;
+    font-family: Calibri;
+    font-size: 20px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#c1 label, #c2 label, #c3 label, #c4 label{ 
+    justify-content: left;
+/*    border: rgb(219, 206, 16) 2px solid;*/
+}   
+#c1 input{
+    margin-left:101px;
+/*     border: lightgreen 3px solid;*/
+
+}
+#c2 input{
+    margin-left:70px;
+    width: 170px;
+/*     border: lightgreen 3px solid;*/
+}
+#c3 input{
+    margin-left:90px;
+    width: 170px;
+/*     border: lightgreen 3px solid;*/
+}
+#c4 input{
+    margin-left:42px;
+    width: 170px;
+/*     border: lightgreen 3px solid;*/
+}
+#botones{
+/*    border: yellow 3px solid;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#btnejecutar, #btnlimpiar{
+    color: white;
+    font-family: Arial black;
+    width: 150px;
+    border-radius: 10px ;
+    cursor: pointer;
+
+}
+#btnejecutar{
+    background-color: black;
+}
+#btnlimpiar{
+    background-color: rgb(26, 96, 247);
+}
+#titulo{
+    margin-top: 0;
+    background-color: rgba(0, 98, 245, 0.945);
+    color: white;
+    font-family: Arial Black;
+    text-align: center;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+}

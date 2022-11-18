@@ -1,0 +1,55 @@
+#cont-1,#cont-2,#cont-3{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.lavels{
+    width: 300px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#formulario{
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgba(211, 211, 211, 0.774);
+}
+#botones{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+}
+#btncalcular, #btnlimpiar{
+        color: white;
+        font-family: Arial black;
+        width: 150px;
+        border-radius: 10px ;
+        cursor: pointer;
+    
+}
+#btncalcular{
+    background-color: black;
+}
+#btnlimpiar{
+    background-color: rgb(26, 96, 247);
+}
+#titulo{
+    margin-top: 0;
+    background-color: rgba(0, 98, 245, 0.945);
+    color: white;
+    font-family: Arial Black;
+    text-align: center;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+input{
+    box-shadow: 2px 2px 5px;
+    border: 0;
+    border-radius: 10px;
+}
+#cuerpo{
+    width: 600px;
+    margin: 0 auto;
+}

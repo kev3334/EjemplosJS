@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="E1.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="estilo1.css">
+</head>
+<body>
+    <form id="formulario">
+        <h2 id="titulo">Calcular Sueldo</h2>
+        <div id="cuerpo">
+            <div id="cont-1">
+                <div class="lavels">
+                    <label>Ingrese el nombre del Trabajador</label>
+                </div>
+                <div>
+                    <input type="text" id="inombre">
+                </div>
+            </div>
+            <div id="cont-2">
+                <div class="lavels">
+                    <label>Ingrese el valor de su sueldo</label>
+                </div>
+                <div>
+                    <input type="number" id="isueldo">
+                </div>
+            </div>
+            <div id="cont-3">
+                <div class="lavels">
+                    <label>Ingrese el número de hijos que tiene</label>
+                </div>
+                <div>
+                    <input type="number" id="inhijos" min="0">
+                </div>
+            </div>
+        </div>
+        <div id="botones">
+            <button type="button" id="btncalcular" onclick="calcular()">Calcular</button>
+            <button type="button" id="btnlimpiar" onclick="limpiar()">Limpiar</button>
+        </div>
+        <p id="pbonificacion"></p>
+        <p id="psueldofinal"></p>
+    </form>
+</body>
+</html>
